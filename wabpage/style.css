@@ -1,0 +1,117 @@
+ .{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+  }
+  
+  #auth-layout{
+      min-height: 100vh;
+      background: white;
+      width: 100%;
+      display: flex;
+  }
+  .form-section{
+      width: 60%;
+      background: white;
+      height: 100vh;
+      padding: 40px;
+      margin-bottom: 100px;
+  }
+  .image-section{
+      background: url(./img/signup\ image.png);
+      background-repeat: no-repeat;
+      background-position: center center;
+      width: 40%;
+      height: 100vh;
+      background-color: white;
+      
+  }
+  .logo-section{
+      display: flex;
+      justify-content: flex-end;
+  }
+
+  .form-row1{
+      display: flex;
+      justify-content: space-between;
+  }
+  .form-row1 .input-box{
+      width: 48%;
+  }
+  .form-row1 .input-box input{
+      width: 100%;
+      height: 40px;
+      padding: 5px 10px;
+  }
+  .form-row2{
+      display: flex;
+      justify-content: space-between;
+  }
+  .form-row2 .input-box{
+      width: 48%;
+  }
+  .form-row2 .input-box input[type="text"]{
+      width: 100%;
+      height: 40px;
+      padding: 5px 10px;
+  }
+  .form-row2 .input-box input[type="radio"]{
+      width: 19%;
+      padding:80px;
+      
+  }
+  .form-row3{
+      display: flex;
+      justify-content: space-between;
+  }
+  .form-row3 .input-box{
+      width: 48%;
+  }
+  .form-row3 .input-box input{
+      width: 100%;
+      height: 40px;
+      padding: 5px 10px;
+  }
+  .form-row4{
+      display: flex;
+      justify-content: space-between;
+  }
+  .form-row4 .input-box{
+      width: 48%;
+  }
+  .form-row4 .input-box select{
+      width: 105%;
+      height: 55px;
+      padding: 15px 20px;
+
+  }
+  .form-row5{
+      width: 100%;
+  }
+  .form-row5 .input-box{
+      width: 100%;
+      height: 100px;
+  }
+  .form-row5 textarea{
+      width: 100%;
+      height: 48px;
+  }
+  .button-section{
+      display: flex;
+      justify-content: flex-end;
+  }
+  .button-section button{
+      background-color: blue;
+      padding: 8px 40px;
+      border: none;
+      border-radius: 10px 5px;
+      color: white;
+
+  }
+
+
+  
+  
+  
+  
